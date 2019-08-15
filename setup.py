@@ -4,7 +4,8 @@
 from setuptools import setup
 
 with open('README.rst', encoding="utf-8") as f:
-    long_description = f.read()
+    #long_description = f.read()
+    long_description = "des"
 
 def version():
     with open('freestream.py', 'r') as f:
