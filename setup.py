@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from setuptools import setup
 
 with open('README.rst', encoding="utf-8") as f:
-    #long_description = f.read()
-    long_description = "des"
+    long_description = f.read()
 
 def version():
     with open('freestream.py', 'r') as f:
