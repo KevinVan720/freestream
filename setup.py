@@ -7,7 +7,7 @@ with open('README.rst', encoding="utf-8") as f:
     long_description = f.read()
 
 def version():
-    with open('freestream.py', 'r') as f:
+    with open('freestream.py', 'r',  encoding="utf-8") as f:
         for l in f:
             if l.startswith('__version__'):
                 return l.split('=')[1].strip(" '\n")
