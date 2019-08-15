@@ -1,10 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import sys
-from importlib import reload
-reload(sys)
-sys.setdefaultencoding('utf-8')
 from setuptools import setup
 
 with open('README.rst', encoding="utf-8") as f:
